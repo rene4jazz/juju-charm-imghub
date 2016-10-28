@@ -1,0 +1,17 @@
+name: imghub
+summary: Imghub charming project
+description: |
+  Using https://github.com/sigurdga/django-jquery-file-upload to create imghub charm
+tags:
+  - applications
+  - img
+  - groupware
+maintainer: James Beedy <jamesbeedy@gmail.com>
+series:
+  - xenial
+provides:
+  website:
+    interface: http
+requires:
+  db:
+    interface: pgsql

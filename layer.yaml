@@ -1,0 +1,10 @@
+includes:
+ - 'layer:basic'
+ - 'layer:nginx'
+ - 'layer:git-deploy'
+ - 'layer:pgsql'
+ - 'interface:http'
+options:
+  git-deploy:
+    target: "/srv/imghub"
+repo: https://github.com/jamesbeedy/juju-charm-imghub

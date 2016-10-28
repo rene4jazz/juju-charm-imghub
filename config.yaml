@@ -1,0 +1,21 @@
+options:
+  commit-or-branch:
+    type: string
+    default: 
+    description: Commit or branch to update to 
+  repo:
+    type: string
+    default: "http://github.com/jamesbeedy/django-jquery-file-upload"
+    description: The repository to clone from, this is required
+  deploy-key:
+    type: string
+    default: ''
+    description: |
+      A deploy key is an SSH key that is stored on the server and
+      grants access to a repository.
+  key-required:
+    type: boolean
+    default: false
+    description: |
+      This should be set to true to ensure that a deploy key is
+      deployed if necessary
